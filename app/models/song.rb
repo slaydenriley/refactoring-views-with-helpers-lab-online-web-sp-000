@@ -3,7 +3,6 @@ class Song < ActiveRecord::Base
 
   def artist_name
     artist.name if artist
-    binding.pry
   end
 
   def artist_name=(name)
